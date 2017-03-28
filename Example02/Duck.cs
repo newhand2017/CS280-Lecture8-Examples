@@ -10,6 +10,9 @@ namespace Example02
     {
         public string Name { get; set; }
 
+        //-------------------------------------------------
+        // 飛行模式
+        //-------------------------------------------------
         //public IFlyBehavior FlyBehavior;
         private IFlyBehavior FlyBehavior;
 
@@ -26,5 +29,7 @@ namespace Example02
         {
             this.FlyBehavior = iterm;
         }
+
+        //-------------------------------------------------
     }
 }
